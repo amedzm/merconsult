@@ -68,3 +68,26 @@ const nav=document.getElementById('nav');const menu=document.querySelector('.men
     if (e.key === 'ArrowRight') render(current + 1);
   });
 })();
+
+
+// Posicionamiento exacto de enlaces a secciones de la galería.
+(() => {
+  const validGalleryTargets = new Set([
+    'obras-realizadas','proyectos-galeria',
+    'completed-works','gallery-projects',
+    'opere-realizzate','progetti-galleria',
+    'ouvrages-realises','projets-galerie'
+  ]);
+  const goToGalleryHash = () => {
+    const id = decodeURIComponent(window.location.hash.replace('#',''));
+    if (!validGalleryTargets.has(id)) return;
+    const target = document.getElementById(id);
+    if (!target) return;
+    window.requestAnimationFrame(() => target.scrollIntoView({block:'start', behavior:'auto'}));
+  };
+  window.addEventListener('load', () => {
+    goToGalleryHash();
+    setTimeout(goToGalleryHash, 250);
+  });
+  window.addEventListener('hashchange', goToGalleryHash);
+})();

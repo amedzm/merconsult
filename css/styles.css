@@ -227,3 +227,7 @@ body.lightbox-open{overflow:hidden}
   .gallery-card figcaption h3{font-size:15px}
   .gallery-card figcaption span{font-size:8.5px;margin-bottom:4px}
 }
+
+
+/* Ajuste de anclas de Obras/Proyectos bajo el menú fijo */
+#obras-realizadas,#proyectos-galeria,#completed-works,#gallery-projects,#opere-realizzate,#progetti-galleria,#ouvrages-realises,#projets-galerie{scroll-margin-top:84px}
