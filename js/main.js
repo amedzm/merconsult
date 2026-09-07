@@ -76,7 +76,10 @@ const nav=document.getElementById('nav');const menu=document.querySelector('.men
     'obras-realizadas','proyectos-galeria',
     'completed-works','gallery-projects',
     'opere-realizzate','progetti-galleria',
-    'ouvrages-realises','projets-galerie'
+    'ouvrages-realises','projets-galerie',
+    'terminal-de-transporte-aguadulce','terminal-de-santiago','casa-de-coronado',
+    'hospital-luis-chicho-fabrega','santa-rosa-truck-stop','terminal-de-david',
+    'urbanizacion-ptaluna','maria-chiquita','residencial-de-retiro-en-coronado','enika-universidad'
   ]);
   const goToGalleryHash = () => {
     const id = decodeURIComponent(window.location.hash.replace('#',''));
@@ -88,6 +91,7 @@ const nav=document.getElementById('nav');const menu=document.querySelector('.men
   window.addEventListener('load', () => {
     goToGalleryHash();
     setTimeout(goToGalleryHash, 250);
+    setTimeout(goToGalleryHash, 900);
   });
   window.addEventListener('hashchange', goToGalleryHash);
 })();
