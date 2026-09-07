@@ -18,3 +18,7 @@ Versión v45: enlaces de portada actualizados: Infraestructura de Transporte →
 Versión v46: Infraestructura de Transporte enlaza directamente a Terminal de Santiago en la galería, en ES/EN/IT/FR.
 
 Versión v47: Hospitalidad y Turismo enlaza directamente a Residencial de retiro en Coronado en la galería, en ES/EN/IT/FR.
+
+Versión v51: eliminados los botones/accesos rápidos de nombres de proyectos en la galería y reducido el espacio vertical resultante.
+
+Versión v52: la cuadrícula de la portada vuelve a 3 columnas; se conservan Plazas Comerciales, Bibliotecas, Estaciones de Bomberos y Mercados Públicos, sin enlaces.

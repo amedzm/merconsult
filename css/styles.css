@@ -2,7 +2,7 @@
 
 .project-reform{background:#f5f7f9}
 .project-reform .section-head{align-items:flex-end}
-.project-catalog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.project-catalog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.project-panel-centered{grid-column:2}
 .project-panel{background:#fff;border-radius:38px;overflow:hidden;box-shadow:0 18px 42px rgba(15,44,76,.08);border:1px solid #dde5eb;display:flex;flex-direction:column;transition:transform .28s ease,box-shadow .28s ease}
 .project-panel:hover{transform:translateY(-6px);box-shadow:0 24px 50px rgba(15,44,76,.12)}
 .project-media{height:320px;overflow:hidden;background:#dbe3ea}
@@ -14,8 +14,8 @@
 .project-line{font-size:19px;line-height:1.35;color:#d7e4ee;margin:0 0 22px}
 .project-meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto}
 .project-meta span{border:1px solid rgba(255,255,255,.2);color:#fff;padding:9px 12px;border-radius:999px;font-size:12px;letter-spacing:.03em;background:rgba(255,255,255,.06)}
-@media(max-width:1100px){.project-catalog{grid-template-columns:repeat(2,minmax(0,1fr))}.project-info h3{font-size:30px}}
-@media(max-width:900px){.project-catalog{grid-template-columns:1fr}.project-media{height:280px}.project-info{min-height:auto}.project-info h3{font-size:28px}.project-line{font-size:18px}}
+@media(max-width:1100px){.project-catalog{grid-template-columns:repeat(2,minmax(0,1fr))}.project-panel-centered{grid-column:1/-1;max-width:calc((100% - 24px)/2);width:100%;justify-self:center}.project-info h3{font-size:30px}}
+@media(max-width:900px){.project-catalog{grid-template-columns:1fr}.project-panel-centered{grid-column:auto;max-width:none;width:auto;justify-self:stretch}.project-media{height:280px}.project-info{min-height:auto}.project-info h3{font-size:28px}.project-line{font-size:18px}}
 @media(max-width:560px){.project-panel{border-radius:28px}.project-media{height:250px}.project-info{padding:20px}.project-type{font-size:11px}.project-info h3{font-size:24px}.project-line{font-size:16px}}
 
 .project-media video{width:100%;height:100%;object-fit:cover;object-position:center;display:block;}
@@ -231,3 +231,9 @@ body.lightbox-open{overflow:hidden}
 
 /* Ajuste de anclas de Obras/Proyectos bajo el menú fijo */
 #obras-realizadas,#proyectos-galeria,#completed-works,#gallery-projects,#opere-realizzate,#progetti-galleria,#ouvrages-realises,#projets-galerie{scroll-margin-top:84px}
+
+/* v51: galería sin accesos rápidos superiores */
+.project-gallery .section-head{margin-bottom:20px}
+.project-gallery > .project-gallery-group:first-of-type{margin-top:18px}
+.gallery-projects-section .section-head{margin-bottom:20px}
+.gallery-projects-section > .project-gallery-group:first-of-type{margin-top:18px}
