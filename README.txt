@@ -8,3 +8,5 @@ Versión v40 completa: incluye galería ordenada con Obras Realizadas primero, s
 Versión v41: se redujo el texto superpuesto en las tarjetas de la galería. La descripción queda disponible en el lightbox, pero no cubre la fotografía en el grid.
 
 Versión v42: corregidos los enlaces de Obras Realizadas/Completed Works/Opere Realizzate/Ouvrages réalisés para abrir su sección correcta en la galería; añadido posicionamiento robusto de anclas.
+
+Versión v43: enlaces específicos de portada corregidos: Infraestructura Institucional -> Hospital Luis “Chicho” Fábrega; Desarrollo Residencial -> Urbanización Petaluna en Las Tablas; Equipamiento Público -> Hospital Luis “Chicho” Fábrega. Aplicado en ES/EN/IT/FR.
