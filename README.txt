@@ -1,11 +1,6 @@
-MERCONSULT - SITIO WEB
-1. Copie la carpeta completa en C:\xampp\htdocs\merconsult
-2. Inicie Apache en XAMPP
-3. Abra http://localhost/merconsult/
+Merconsult v40 - Actualización de menú
 
-Nota: el diseño incluye imágenes y video de stock mediante URLs externas, por lo que requiere conexión a Internet para cargar esos recursos. El logo de Merconsult se incluye localmente.
+Reemplazar css/styles.css de la versión 39 por el incluido aquí.
+Agrega hover animado al menú principal en español, inglés, italiano y francés.
 
-
-Versión v34: videos de usuario aplicados a la sección de Proyectos emblemáticos (portada) en ES/EN/IT.
-
-Versión v35: se reemplazaron los videos de Infraestructura Institucional y Hospitalidad y Turismo con los videos subidos por el usuario.
+Versión v40 completa: incluye galería ordenada con Obras Realizadas primero, separador visual, Proyectos después, cuatro idiomas (ES/EN/IT/FR) y hover en el menú principal.
